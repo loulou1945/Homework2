@@ -1,5 +1,51 @@
 public class Main {
     public static void main(String[] args) {
-
+        var dog = 8.0;
+        var cat = 3.6;
+        var paper = 763789;
+        System.out.println(dog);
+        System.out.println(cat);
+        System.out.println(paper);
+        dog = dog+4;
+        cat = cat+4;
+        paper=paper+4;
+        System.out.println(dog);
+        System.out.println(cat);
+        System.out.println(paper);
+        dog = dog-3.5;
+        cat = cat-1.6;
+        paper=paper-7639;
+        System.out.println(dog);
+        System.out.println(cat);
+        System.out.println(paper);
+        var friend = 19;
+        System.out.println(friend);
+        friend=friend+2;
+        System.out.println(friend);
+        friend = friend/7;
+        System.out.println(friend);
+        var frog = 3.5;
+        System.out.println(frog);
+        frog = frog *10;
+        System.out.println(frog);
+        frog = frog/3.5;
+        System.out.println(frog);
+        frog = frog+4;
+        System.out.println(frog);
+        var m1=78.2;
+        var m2=82.7;
+        var sum = m1+m2;
+        System.out.println(sum);
+        var rasn = m2-m1;
+        System.out.println(rasn);
+        var ost = m2%m1;
+        System.out.println(ost);
+        var h = 640;
+        var h1 = 8;
+        var sotr = h/h1;
+        System.out.println("Всего работников в компании - "+sotr+" человек");
+        sotr = sotr+94;
+        var h2 = h/sotr;
+        System.out.println("Если в компании работает "+sotr+" человек, то всего "+h2+" часа работы можетбыть поделено между сотрудниками");
     }
 }
