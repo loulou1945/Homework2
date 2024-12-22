@@ -32,20 +32,20 @@ public class Main {
         System.out.println(frog);
         frog = frog+4;
         System.out.println(frog);
-        var m1=78.2;
-        var m2=82.7;
-        var sum = m1+m2;
+        var massOne=78.2;
+        var massTwo=82.7;
+        var sum = massOne+massTwo;
         System.out.println(sum);
-        var rasn = m2-m1;
+        var rasn = massTwo-massOne;
         System.out.println(rasn);
-        var ost = m2%m1;
+        var ost = massOne%massTwo;
         System.out.println(ost);
-        var h = 640;
-        var h1 = 8;
-        var sotr = h/h1;
+        var hourGeneral = 640;
+        var hourSotr = 8;
+        var sotr = hourGeneral/hourSotr;
         System.out.println("Всего работников в компании - "+sotr+" человек");
         sotr = sotr+94;
-        var h2 = h/sotr;
-        System.out.println("Если в компании работает "+sotr+" человек, то всего "+h2+" часа работы можетбыть поделено между сотрудниками");
+        var hourSotrNew = hourGeneral/sotr;
+        System.out.println("Если в компании работает "+sotr+" человек, то всего "+hourSotrNew+" часа работы можетбыть поделено между сотрудниками");
     }
 }
